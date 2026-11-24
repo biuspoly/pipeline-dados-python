@@ -1,0 +1,10 @@
+{
+  "_comentario": "Quem recebe o aviso de prazo de comodato, por revenda. Revenda sem lista (ou com lista vazia) cai em 'padrao'; [\"-\"] desliga o aviso daquela revenda. Enderecos ficticios.",
+  "padrao": ["logistica@example.com"],
+  "por_revenda": {
+    "Aurora": ["comodato.aurora@example.com", "gerente.aurora@example.com"],
+    "Boreal Norte": ["comodato.boreal@example.com"],
+    "Boreal Sul": [],
+    "Cerrado": ["-"]
+  }
+}

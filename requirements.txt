@@ -1,0 +1,8 @@
+# Versoes minimas. Testado com Python 3.12, polars 1.42, duckdb 1.5, pyarrow 25,
+# prefect 3.7, python-dotenv 1.2, python-dateutil 2.9.
+polars>=1.0
+duckdb>=1.0
+pyarrow>=14.0
+prefect>=3.0
+python-dotenv>=1.0
+python-dateutil>=2.8

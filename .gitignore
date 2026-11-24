@@ -1,0 +1,32 @@
+# Segredos / configuracao local
+.env
+.env.*
+!.env.example
+
+# Ambiente virtual
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+
+# Saidas da pipeline (geradas a cada execucao) -- so' os Parquet DE ORIGEM
+# (dados/origem/) vao para o repositorio.
+dados/bancos/
+*/data/
+saida/
+orquestracao/parquet/
+*.tmp
+
+# Logs
+logs/
+*.log
+
+# Editor / SO
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
